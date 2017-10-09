@@ -1,0 +1,216 @@
+Reset
+*{
+	margin: 0;
+	padding: 0;
+	font-family: helvetica;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #d7d7d7;
+	font-family: helvetica;
+	font-size: 13px;
+}
+
+
+.text-center{
+	text-align: center;
+}
+
+.circle{
+	height: 180px;
+	width: 180px;
+	border-radius: 50%;
+	background-image: url(imagen-cv.jpg);
+	background-position: 50%;
+	background-size: 200px;
+	margin: -80px auto;
+	position: relative;
+
+}
+
+.content{
+	width: 80%;
+	background-color: #fff;
+	
+	margin: 100px 9%;
+	position: absolute;
+}
+
+.content .name{
+	height: 50px;
+	margin: 100px auto 40px auto; 
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 500;
+	border-bottom: 1px solid #666;
+}
+
+p.title{
+	color: red;
+	font-weight: 500;
+}
+
+li.order-list{
+	padding-left: 20px;
+	font-weight: 700;
+}
+
+/*columnas*/
+
+.col-md-7{
+	width: 60%;
+	float: left;
+	padding: 0px 45px;
+	box-sizing: border-box;
+
+}
+
+.col-md-3{
+	min-width: 40%;
+	float: left;
+	padding: 0 15px;
+	box-sizing: border-box;
+
+}
+
+
+.education-2012{
+	height: 100px;
+}
+
+.education-2010{
+	height: 100px;
+	margin-top: 10px;
+}
+
+.year{
+	float: left;
+	width: 10%;
+	font-weight: 700;
+}
+
+.info-education{
+	float: left;
+	box-sizing: border-box;
+	width: 90%;
+	padding: 0px 0 10px 20px;
+	background-color: #d3d3d3;
+}
+
+.work{
+	float: left;
+	width: 15%;
+	font-weight: 700;
+}
+
+.info-work{
+	float: left;
+	box-sizing: border-box;
+	width: 85%;
+	padding: 0px 0 10px 20px;
+}
+
+div.info-work p{
+	margin-top: 0;
+}
+
+/*Columna izquierda*/
+
+
+
+/*Columna derecha*/
+
+.energy-style{
+	color: #fff;
+	height: 20px;
+	background-color: red;
+	margin: 5px 0;
+	padding: 5px 0 0 10px;
+}
+
+.energy-9{
+	width: 90%;
+}
+.energy-8{
+	width: 80%;
+}
+.energy-5{
+	width: 50%;
+}
+.energy-3{
+	width: 30%;
+}
+.energy-1{
+	width: 10%;
+}
+
+.english{
+	padding-top: 20px;
+}
+
+.name-language{
+	width: 30%;
+	float: left;
+}
+
+.stars{
+	width: 70%;
+	float: right;
+	padding-right: 30px;
+	box-sizing: border-box;
+}
+
+.margin-top-title{
+	margin-top: 35px;
+}
+
+ img.star-right{
+ 	float: right;
+ 	width: 15px;
+ 	margin-right: 5px;
+ }
+
+div.purple{
+	float: left;
+	background-color: purple;
+	color: #fff;
+	height: 30px;
+	box-sizing: border-box;
+	margin-right: 8px;
+	padding: 7px;
+	text-align: center;
+	border-radius: 10%;
+
+}
+
+footer{
+	border-top: 1px solid #666;
+	font-size: 10px;
+	text-align: right;
+	margin-top: 50px;
+	height: 30px;
+}
+
+@media (max-width: 768px){
+	.content .name{
+	height: 50px;
+	margin: 100px auto 40px auto; 
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 500;
+	border-bottom: 1px solid #666;
+}
+}
+
+
+@media (max-width: 826px){
+	.col-md-7{
+	width: 100%;
+
+}
+
+.col-md-3{
+	min-width: 100%;
+}
+}
